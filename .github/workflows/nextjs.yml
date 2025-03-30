@@ -1,0 +1,9 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+    basePath: "/smart-fund-management", // Change this to your repo name
+};
+module.exports = nextConfig;
